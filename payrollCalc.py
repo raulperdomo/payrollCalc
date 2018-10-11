@@ -26,7 +26,7 @@ def employeeHours(period):
 def report(period, empList):
     print()
     print('*********Payroll Report*********')
-    print(f'    {period}')
+    print(period.center(32))
     print()
     for name in empList:
         print(f'{name[0].title()} worked {name[1]} hours\nand earned {name[2]} in commission.')
