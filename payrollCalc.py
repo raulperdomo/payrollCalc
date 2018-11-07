@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/python
 import datetime
 def setPeriod():
     date = input('Please enter the date the period began (mm/dd): ')
